@@ -2249,9 +2249,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:10.0.11":
-  version: 10.0.11
-  resolution: "@eeacms/volto-plotlycharts@npm:10.0.11"
+"@eeacms/volto-plotlycharts@npm:10.0.12":
+  version: 10.0.12
+  resolution: "@eeacms/volto-plotlycharts@npm:10.0.12"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2261,7 +2261,7 @@ __metadata:
     react-chart-editor: 0.46.1
     react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-plotly.js: 2.6.0
-  checksum: 199f2dc1caa883b559598fdd63f197ed8a51db6695dd276e9454b300f12c0303ad09a89824177d57e2e7053429015556a459a2b0ffdd192e2142a73e955b1c3e
+  checksum: 5c7c197fa7e82867481b2da87adc7030ce2f686c571807cebc0a4928346ad12a77d66be5aaa95a955f98a6d9cfdc3b7a84bc2782b2eb6ba95426dc971b6d0fa0
   languageName: node
   linkType: hard
 
@@ -7436,7 +7436,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.1
     "@eeacms/volto-energy-theme": 1.0.34
     "@eeacms/volto-pdf-block": 1.0.11
-    "@eeacms/volto-plotlycharts": 10.0.11
+    "@eeacms/volto-plotlycharts": 10.0.12
     "@eeacms/volto-tableau": 8.1.2
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.4.1
