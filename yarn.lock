@@ -1703,13 +1703,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bundled-es-modules/pdfjs-dist@npm:^2.2.228-alpha1":
-  version: 2.2.228-alpha1
-  resolution: "@bundled-es-modules/pdfjs-dist@npm:2.2.228-alpha1"
-  checksum: 7fcb9cfbc82afe9fbcc4c30a599fc623e93bf05e801ab1e4262b7d8f691da845547f8f98946c84fd6fade9a9f528c161e6b5dd5bdfe0b8ce048b4bbfe0689490
-  languageName: node
-  linkType: hard
-
 "@choojs/findup@npm:^0.2.0":
   version: 0.2.1
   resolution: "@choojs/findup@npm:0.2.1"
@@ -2222,12 +2215,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-pdf-block@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@eeacms/volto-pdf-block@npm:1.0.11"
+"@eeacms/volto-pdf-block@npm:1.0.12":
+  version: 1.0.12
+  resolution: "@eeacms/volto-pdf-block@npm:1.0.12"
   dependencies:
-    "@mikecousins/react-pdf": 5.5.1
-  checksum: 1459ba3a52064d2a2ff2797a5b90e6573a2719d069712626279d4f2e2206ae36879cab2e42237354002413effba92412419d8f1e16639c4e2be027674490ae56
+    "@mikecousins/react-pdf": 5.5.0
+  checksum: d526aa0b7b49e481df18dc0e6776e277ab8eaab9eb8fdad923f3b44af5d396ca616fa3ce0b7015655169faf654e967e99d3d1d77d8f44802c2d8e801fee14660
   languageName: node
   linkType: hard
 
@@ -3397,14 +3390,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikecousins/react-pdf@npm:5.5.1":
-  version: 5.5.1
-  resolution: "@mikecousins/react-pdf@npm:5.5.1"
+"@mikecousins/react-pdf@npm:5.5.0":
+  version: 5.5.0
+  resolution: "@mikecousins/react-pdf@npm:5.5.0"
   dependencies:
-    "@bundled-es-modules/pdfjs-dist": ^2.2.228-alpha1
+    pdfjs-dist: 2.2.228
   peerDependencies:
     react: ">=16"
-  checksum: a8c19eff10463d63fa4523cf95dcac416c57002e8f87816e67fd2bb21ffc71fb34139f916147f020604375bd940a112f53b290766646f96db3377f7f566e0676
+  checksum: 8f4c5827423fb6022516623aaf7b6275aade9ac377a54a1872565a1ef8f0775a620182357254358bfd32320a57a2c0fc9a34edc3df86afa4a0c514484bcf5ee7
   languageName: node
   linkType: hard
 
@@ -7435,7 +7428,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 26.4.2
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-energy-theme": 1.0.34
-    "@eeacms/volto-pdf-block": 1.0.11
+    "@eeacms/volto-pdf-block": 1.0.12
     "@eeacms/volto-plotlycharts": 10.0.15
     "@eeacms/volto-tableau": 8.1.3
     "@plone/scripts": ^2.1.2
@@ -19756,6 +19749,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pdfjs-dist@npm:2.2.228":
+  version: 2.2.228
+  resolution: "pdfjs-dist@npm:2.2.228"
+  dependencies:
+    node-ensure: ^0.0.0
+    worker-loader: ^2.0.0
+  peerDependencies:
+    webpack: ^3.0.0 || ^4.0.0-alpha.0 || ^4.0.0
+  checksum: 8856d80b1787ecdc88eb7773cadb071ad41e712156b586fd8f4b4ae546818f350521653504f798eab2eeea2ca0e9f910c62e4591a25e3f60567fbed1d727b457
+  languageName: node
+  linkType: hard
+
 "pdfjs-dist@npm:^1.9.575":
   version: 1.10.100
   resolution: "pdfjs-dist@npm:1.10.100"
@@ -28475,6 +28480,18 @@ __metadata:
   peerDependencies:
     webpack: ^2.0.0 || ^3.0.0 || ^4.0.0
   checksum: 9ac357b049a11d1612e24588651c3f0e4d7b5f14b4d0055332faea3486fb89aa15fcfb824526962abe5655d1665b65f964644af5a25a672f33d6f05585f6f302
+  languageName: node
+  linkType: hard
+
+"worker-loader@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "worker-loader@npm:2.0.0"
+  dependencies:
+    loader-utils: ^1.0.0
+    schema-utils: ^0.4.0
+  peerDependencies:
+    webpack: ^3.0.0 || ^4.0.0-alpha.0 || ^4.0.0
+  checksum: 76fbb5a6ce1054c473d81b4f5f6cb482b3ec1d13d943786f0f6a29220d6f24e396b55f73b8e31659100a12e66e60ed237807bc42b9835da8bcb1bd283759e204
   languageName: node
   linkType: hard
 
