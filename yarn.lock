@@ -2242,19 +2242,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:10.0.15":
-  version: 10.0.15
-  resolution: "@eeacms/volto-plotlycharts@npm:10.0.15"
+"@eeacms/volto-plotlycharts@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@eeacms/volto-plotlycharts@npm:11.0.0"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     jsoneditor: 10.1.0
-    plotly.js: ^2.35.2
+    plotly.js: ^2.35.3
     react-chart-editor: 0.46.1
-    react-colorscales: "github:eea/react-colorscales#1.0.2"
+    react-colorscales: "github:eea/react-colorscales#2.0.0"
     react-plotly.js: 2.6.0
-  checksum: c376a7b89cb9ba00d932050d7016d030a3aaf09c1d3784fe082985f6393d545ad026c40f9fb61eea3abce6f2b2c392fbeca875c86fbe0533dd060652d12651e0
+  checksum: 8d1ec8568db8b327f8c3416c536eea3d41f8fd35768083c6c6193277dba12ce55a393a9620959dc862f817e077b64a29a614d7c3fb7a62ebc10ee667255ecaeb
   languageName: node
   linkType: hard
 
@@ -7429,7 +7429,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-energy-theme": 1.0.34
     "@eeacms/volto-pdf-block": 1.0.12
-    "@eeacms/volto-plotlycharts": 10.0.15
+    "@eeacms/volto-plotlycharts": 11.0.0
     "@eeacms/volto-tableau": 8.1.3
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.4.1
@@ -20033,9 +20033,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"plotly.js@npm:^2.35.2":
-  version: 2.35.2
-  resolution: "plotly.js@npm:2.35.2"
+"plotly.js@npm:^2.35.3":
+  version: 2.35.3
+  resolution: "plotly.js@npm:2.35.3"
   dependencies:
     "@plotly/d3": 3.8.2
     "@plotly/d3-sankey": 0.7.2
@@ -20089,7 +20089,7 @@ __metadata:
     topojson-client: ^3.1.0
     webgl-context: ^2.2.0
     world-calendars: ^1.0.3
-  checksum: 2f5498530cb99b45721527f43fd400c462cebe0160bf86843428c5ebc188a73330d7eb01832331479e34597b6c64097d535f10b84bef5e1eeebf859700722ef6
+  checksum: 46237ebbc9112bea83e6cac60ec307da65b7c31543826f0dd0c86e81ea70f9aa42228214b8c6041b11e6325882ab2b7bb3d5a8221e5f57ef4822fdea038aa4b8
   languageName: node
   linkType: hard
 
@@ -21856,9 +21856,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-colorscales@github:eea/react-colorscales#1.0.2":
+"react-colorscales@github:eea/react-colorscales#2.0.0":
   version: 1.0.2
-  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=4da806e9a53be8c9567c913853f70aab561c90ea"
+  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=b693add303dffcbdf5757eb3d8dfa16048f6c181"
   dependencies:
     chroma-js: ^1.3.4
     rc-slider: ^8.4.0
@@ -21866,7 +21866,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
+  checksum: f5e0c4532df134e0a080438ea7b57c4d5246e3bd9fbef366ce1be1ce5ec3a377a86fc91616e8514192e5e49aab78a7596556277262bc9fd0f5f1989ac94256fe
   languageName: node
   linkType: hard
 
